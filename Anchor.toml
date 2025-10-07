@@ -9,6 +9,7 @@ skip-lint = true
 dutch-auction = "25MgjiKAVySForPXcZdizT4jPa1jcSPGhdfJUfLStGsz"
 faucet = "4h1ELKdFXCYHAB3pvEQgyxExNqVUWz5ZZVjKP516VBjA"
 merkle-tree = "2xR9kA5Xc8eN5S6mHmquQgyHUPrEhdHKWvsHSz4KURmg"
+nft-exchange = "Gqej27KfZogJP1azTKwcTco3zh9y254Fu6vEVwMTV3F7"
 signature = "9coYgijAmuE9woESRL6PFXgQhUtJx2Rk3LCVAU2qDCby"
 solana = "Crgf2RxE1xdvcz9iqK3QFWrZnguPmtFuNU9wpJRLvi4d"
 
@@ -20,4 +21,4 @@ cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
-test = "pnpm exec ts-mocha -p ./tsconfig.json -t 1000000 programs/signature/client.ts"
+test = "pnpm exec ts-mocha -p ./tsconfig.json -t 1000000 programs/nft-exchange/client.ts"
